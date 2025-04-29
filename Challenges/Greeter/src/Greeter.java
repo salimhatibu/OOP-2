@@ -1,11 +1,13 @@
 public class Greeter {
 
-    void greet(){
-        System.out.println("Hi There");
-
+    // Method to print the welcome message
+    void greet() {
+        System.out.println("Welcome to our application!");
     }
 
-    public static void main(String[] args){
+    // Main method - entry point of the program
+    public static void main(String[] args) {
         new Greeter().greet();
     }
 }
+
